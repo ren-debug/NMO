@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td>${item.exhibitNo}</td>
-        <td>${item.category}</td>
         <td>${item.type}</td>
+        <td>${item.category}</td>
         <td>${item.description}</td>
         <td>${item.date}</td>
         <td>${item.author}</td>

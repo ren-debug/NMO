@@ -38,7 +38,13 @@
   <nav class="nav-menu">
     <a href="index-a.html">A. Preliminary Documents</a>
     <a href="index-b.html">B. Court Documents and Applications</a>
-    <a href="index-c.html">C. Witness Evidence</a>
+    <div class="dropdown">
+      <button class="dropbtn">C. Witness Evidence ▾</button>
+      <div class="dropdown-content">
+        <a href="index-c.html">C1. Statements</a>
+        <a href="index-c2.html">C2. Exhibits</a>
+      </div>
+    </div>
   </nav>
 
   <div class="table-controls">
@@ -57,8 +63,8 @@
       <thead>
         <tr>
           <th class="sortable" data-column="exhibitNo">Exhibit No<span class="sort-icon">↕</span></th>
-          <th class="sortable" data-column="category">Category<span class="sort-icon">↕</span></th>
           <th class="sortable" data-column="type">Type<span class="sort-icon">↕</span></th>
+          <th class="sortable" data-column="category">Category<span class="sort-icon">↕</span></th>
           <th class="sortable" data-column="description">Description<span class="sort-icon">↕</span></th>
           <th class="sortable" data-column="date">Date<span class="sort-icon">↕</span></th>
           <th class="sortable" data-column="author">Author<span class="sort-icon">↕</span></th>
